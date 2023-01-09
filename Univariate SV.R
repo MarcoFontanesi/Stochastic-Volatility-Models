@@ -4,7 +4,6 @@ rm(list = ls())
 library(tidyverse)
 
 #Data frame
-setwd("C:/MARCO/UCL/Econ&Stat/Project/Project Working Directiory")
 d = read.csv("EURUSD=X.csv")
 d = d[-c(1), ]
 
